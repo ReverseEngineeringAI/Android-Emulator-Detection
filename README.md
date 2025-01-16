@@ -1,1 +1,1 @@
-# Emulator-Detection
+# Android Emulator Detection
