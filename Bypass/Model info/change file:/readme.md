@@ -17,6 +17,12 @@ ro.vendor.build.type=userdebug
 ro.product.debugfs_restrictions.enabled=true
 
 ro.product.board=goldfish_x86_64
+
+# from variable PRODUCT_PROPERTY_OVERRIDES
+vendor.rild.libpath=/vendor/lib64/libgoldfish-ril.so
+
+# end of file
+emulator64_x86_64_arm64:/system/vendor
 ```
 
 note: '[goldfish_x86_64](https://www.google.com/search?q=goldfish_x86_64)' Goldfish kernel is known to be used in Emulators only!
